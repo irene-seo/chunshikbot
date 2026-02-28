@@ -59,6 +59,8 @@ st.markdown(f"""
     h1 {{
         text-align: center;
         color: #3C1E1E !important;
+        white-space: nowrap !important;
+        font-size: clamp(1.3rem, 5vw, 2rem) !important;
     }}
     hr {{
         border-color: #FEE500 !important;
