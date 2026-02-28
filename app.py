@@ -23,11 +23,15 @@ chunsik_b64 = get_base64_image("chunsik.png.png")
 
 st.markdown(f"""
 <style>
-    .stApp {{
-        background-color: #FEE500;
-        background-image: url("data:image/png;base64,{chunsik_b64}");
-        background-repeat: repeat;
-        background-size: 350px;
+    .stApp,
+    [data-testid="stAppViewContainer"],
+    [data-testid="stApp"],
+    section[data-testid="stSidebar"] + div,
+    .main {{
+        background-color: #FEE500 !important;
+        background-image: url("data:image/png;base64,{chunsik_b64}") !important;
+        background-repeat: repeat !important;
+        background-size: 200px !important;
     }}
     .block-container {{
         background-color: white;
