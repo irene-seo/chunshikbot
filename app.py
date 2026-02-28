@@ -23,22 +23,22 @@ chunsik_b64 = get_base64_image("chunsik.png.png")
 
 st.markdown(f"""
 <style>
-    .stApp,
+    html, body, #root, .stApp,
     [data-testid="stAppViewContainer"],
     [data-testid="stApp"],
-    section[data-testid="stSidebar"] + div,
     .main {{
         background-color: #FEE500 !important;
         background-image: url("data:image/png;base64,{chunsik_b64}") !important;
         background-repeat: repeat !important;
-        background-size: 200px !important;
+        background-size: 150px !important;
     }}
     .block-container {{
         background-color: white;
         border-radius: 24px;
         padding: 2rem 2rem 3rem 2rem;
-        margin-top: 2rem;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        margin: 1.5rem 1rem 2rem 1rem !important;
+        max-width: 95% !important;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     }}
     .stButton > button {{
         background-color: #FEE500 !important;
