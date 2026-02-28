@@ -61,7 +61,10 @@ st.markdown(f"""
         text-align: center;
         color: #3C1E1E !important;
         white-space: nowrap !important;
-        font-size: clamp(1.3rem, 5vw, 2rem) !important;
+        font-size: clamp(1.7rem, 6.5vw, 2.5rem) !important;
+    }}
+    h3 {{
+        font-size: clamp(0.9rem, 3.5vw, 1.1rem) !important;
     }}
     h1 a, h2 a, h3 a {{
         display: none !important;
