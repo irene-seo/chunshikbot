@@ -30,7 +30,8 @@ st.markdown(f"""
         background-color: #FEE500 !important;
         background-image: url("data:image/png;base64,{chunsik_b64}") !important;
         background-repeat: repeat !important;
-        background-size: 150px !important;
+        background-size: 33.33vw !important;
+        background-position: top left !important;
     }}
     .block-container {{
         background-color: white;
@@ -61,6 +62,9 @@ st.markdown(f"""
         color: #3C1E1E !important;
         white-space: nowrap !important;
         font-size: clamp(1.3rem, 5vw, 2rem) !important;
+    }}
+    h1 a, h2 a, h3 a {{
+        display: none !important;
     }}
     hr {{
         border-color: #FEE500 !important;
